@@ -1,0 +1,2 @@
+Projeto que permite o  usuário  fazer o cadastro  no sistema e após logar. caso o login  esteja incorreto retorna uma mensgem com o erro  e caso contrário sera direcionado para a tela principal  onde mostra ao usuário a tebela do campeonato brasileiro de 2020-2021. tendo a opção de quando  clicar no nome do time será direcionado  ao site de notícias da equipe.
+Informações  retiradas através de uma API.
