@@ -1,0 +1,253 @@
+body {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+#tabela{
+	border-collapse:separate;
+	border-spacing: 0;
+	border-top: 50px;
+	background-color: white;
+}
+.Titulo{
+	background: #10502f;
+	text-align: left;	
+	border-top: 3px;
+	height: 50px;
+	width: 100%;
+}
+.Titulo h3{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    height: 40px;
+}
+td.classif{
+	color: white;
+    padding: 21px;
+    text-align: center;
+}
+td.subMenu {
+    background:#10502f;
+    width: 136px;
+    height: 40px;
+}
+.subMenu a{
+	color: white;
+	margin-left: 24px;
+	
+}
+.subMenu a:hover{
+    background-color:#143625;
+    color: white;
+}
+
+.temporada{ 
+    background-color: #F1F3F4;
+    color: #757575;
+    display: inline-block;
+    line-height: normal;
+    width: 678px;
+    text-align: left;
+}
+td.vazio{
+	min-width: 230px;
+}
+td.v{
+	min-width: 230px;
+}
+td.menu{
+   border-top: 1px solid #f1f3f4;
+   color: #212121;
+   line-height: 0px;
+   height: 40px;
+   cursor: pointer;
+   padding: 5px;
+}
+.time{
+   text-decoration:none; 
+   color: black;
+}
+td.cor{
+   border-top: 1px solid #f1f3f4;
+}
+td.posicao{
+   border-top: 1px solid #f1f3f4;
+   color: #757575;
+   line-height: 0px;
+   height: 40px;
+   cursor: pointer;
+   min-width: 30px;
+}
+td.brasao{
+   border-top: 1px solid #f1f3f4;
+   color: #212121;
+   line-height: 0px;
+   height: 40px;    
+   cursor: pointer;
+   min-width: 53px;
+}
+td.nome{
+   border-top: 1px solid #f1f3f4;
+   color:#757575;
+   height: 40px;
+   cursor: pointer;
+   min-width: 162px;
+}   
+td.pontos{
+   border-top: 1px solid #f1f3f4;
+   color:#757575;
+   line-height: 0px;
+   height: 40px;
+   cursor: pointer;
+   min-width: 32px;
+}
+td.jogos{
+   border-top: 1px solid #f1f3f4;
+   color:#757575;
+   line-height: 0px;
+   height: 40px;
+   cursor: pointer;
+   min-width: 32px; 
+}
+td.vitorias{
+   border-top: 1px solid #f1f3f4;
+   color:#757575;
+   line-height: 0px;
+   height: 40px;
+   cursor: pointer;
+   min-width: 32px;
+}
+td.empates{
+   border-top: 1px solid #f1f3f4;
+   color:#757575;
+  
+   line-height: 0px;
+   height: 40px;
+   cursor: pointer;
+   min-width: 32px;
+ }
+td.derrotas{
+   border-top: 1px solid #f1f3f4;
+   color:#757575;
+   line-height: 0px;
+   height: 40px;
+   cursor: pointer;
+   min-width: 32px;
+}
+td.golsMarcados{
+   border-top: 1px solid #f1f3f4;
+   color:#757575;
+   line-height: 0px;
+   height: 40px;
+   cursor: pointer;
+   min-width: 32px;
+}
+td.golsSofridos{
+   border-top: 1px solid #f1f3f4;
+   color: #757575;
+   line-height: 0px;
+   height: 40px;
+   cursor: pointer;
+   min-width: 32px;
+}
+td.saldo{
+   border-top: 1px solid #f1f3f4;
+   color:#757575;
+   line-height: 0px;
+   height: 40px;
+   cursor: pointer;
+   min-width: 32px;
+}
+td.anterior{
+   border-top: 1px solid #f1f3f4;
+   color:#757575;
+   line-height: 0px;
+   height: 40px;
+   cursor: pointer;
+   min-width: 80px;
+   text-align: center;
+
+    
+ }
+.legenda{
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #ebebeb;
+    margin: 8px;
+    font-size: 12px;
+    height: 150px;
+    width: 635px;
+    margin-bottom: 20px;
+}
+
+.faixasClassificacao{
+	padding: 20px;
+	width: 270px;
+	text-align:left;
+	margin-right: auto;
+	font-size: 14px;
+}
+.quadroAzul{
+	background-color:#4285F4;
+	width: 12px;
+	height: 12px;
+	margin-top: 4px;
+}
+.quadroLaranja{
+	background-color:#FA7B17;
+	width: 12px;
+	height: 12px;
+	margin-top: 4px;
+}
+.quadroVerde{
+	background-color:#34A853;
+	width: 12px;
+	height: 12px;
+	margin-top: 4px;
+
+}
+.quadroVermelho{
+	background-color:#EA4335;
+	width: 12px;
+	height: 12px;
+	margin-top: 4px;
+}
+.linha{
+	
+    display: flex;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.descricao{
+    display: inline-block;
+    flex: 1; 
+    margin-left: 12px;
+    vertical-align: middle;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.ultimasCinco{
+	bottom: 145px;
+    padding: 8px;
+    width: 215px;
+    text-align: left;
+    margin-left: auto;
+    position: relative;   
+    font-size: 14px;
+	  
+ }
+ #table{
+ 	top: 0;
+    left: 0;
+    width:675px;
+    display: inline-block;
+    white-space: normal;
+    background-color: white;
+ }
+
+ #container{
+ 	background-color:#eeeeee; 
+ }
+ .espaço{
+ 	width: 10px;
+ 	height: 40px;
+ }

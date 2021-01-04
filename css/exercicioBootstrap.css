@@ -1,0 +1,56 @@
+.container, .container-fluid {
+ 
+
+ background-color:white;/*cor branca*/
+}
+
+.azul{
+	background-color: #000042; /*cor azul*/
+	color: #FFFFFF;/*cor branca*/
+	   
+}
+.verde{
+	background-color:#01DFA5;/*cor verde*/
+	color: #FFFFFF;/*cor branca*/
+}
+.branco{
+	background-color:#FFFFFF; /*cor branca*/
+}
+
+#informacao{
+	background-color:#01DFA5;/*cor verde*/
+	
+	
+}
+#botao{
+	color: black;/*cor preta*/
+	position: center;/*centralizado*/
+}
+
+[class*="col-"], header, footer, nav, aside, section, div[role="main"] {
+	padding-top: 15px; /*bordas*/
+    padding-bottom: 15px;/*bordas*/
+   
+    text-align: center;/* texto alinhado no centro*/
+    
+
+}
+
+
+div[role="main"] {
+ background-color: #fff;/*cor branca*/
+}
+div[role="main"] {
+ height: 150px;/*altura*/
+}
+div[role="complementary"],aside {
+ height: 120px;/*altura*/
+}
+.imagens div[role="complementary"],aside {
+
+height: auto;/*altura automatica */
+    
+}
+
+    
+
